@@ -1,15 +1,9 @@
 from phue import Bridge
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-
-bridgeIpAddress = os.getenv("BRIDGE_IP")
 
 
 class AutoHue:
 
-    def __init__(self, bridgeIpAddress=bridgeIpAddress):
+    def __init__(self, bridgeIpAddress):
         """Initialize connection to HUE"""
         self.bridge_ip = bridgeIpAddress
         self._connect()
@@ -125,4 +119,4 @@ class AutoHue:
 if __name__ == "__main__":
     hue = AutoHue()
     hue.set_office_youtube_lights()
-    #hue.set_office_night_light()
+    # hue.set_office_night_light()
