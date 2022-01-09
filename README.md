@@ -1,3 +1,5 @@
 # auto-hue
 
-Script is used to control my Phillips Hue lights settings for my YouTube videos
+Script is used to control my Phillips Hue lights settings for my YouTube videos.
+
+Documentation on lights coming soon
