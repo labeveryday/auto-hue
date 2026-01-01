@@ -5,6 +5,7 @@ from pprint import pprint
 
 load_dotenv()
 
+
 bridgeIpAddress = os.getenv("BRIDGE_IP")
 
 def main():

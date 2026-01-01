@@ -1,3 +1,30 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+
+# Local env / secrets (commit .env.example instead)
+.env
+.env.*
+.envfile
+
+# Local runtime state / logs
+scene_index.txt
+*.log
+
+# Local notes/blog (keep locally, don't commit)
+blog_post.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
