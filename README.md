@@ -2,6 +2,8 @@
 
 Script is used to control my Phillips Hue lights settings for my YouTube videos.
 
+![auto-hue](./auto-hue-img.png)
+
 Documentation on lights coming soon!
 
 ## Stream Deck: run `rotate_scenes.py`
